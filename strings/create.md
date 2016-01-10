@@ -1,26 +1,25 @@
-# Creation
+# ساختن
 
-You can define strings in JavaScript by enclosing the text in single quotes or double quotes:
+در جاوااسکریپت شما می‌توانید با محصور کردن یک متن داخل دو کوتیشن (`'`) یا دو دابل‌کوتیشن (`"`) یک رشته بسازید:
 
 ```js
-// Single quotes can be used
+// می‌توانید از کوتیشن تک استفاده کنید
 var str = 'Our lovely string';
 
-// Double quotes as well
+// یا از دابل کوتیشن
 var otherStr = "Another nice string";
 ```
 
-In Javascript, Strings can contain UTF-8 characters:
+در جاوااسکریپت، رشته‌ها می‌توانند حاوی نویسه‌های UTF-8 باشند:
 
 ```js
-"中文 español English हिन्दी العربية português বাংলা русский 日本語 ਪੰਜਾਬੀ 한국어";
+"中文 español English हिन्दी العربية فارسی português বাংলা русский 日本語 ਪੰਜਾਬੀ 한국어";
 ```
 
-
-**Note:** Strings can not be subtracted, multiplied or divided.
+**توجه:** رشته‌ها نمی‌توانند از هم کم شوند، در هم ضرب شوند یا تقسیم شوند.
 
 {% exercise %}
-Create a variable named `str` set to the value `"abc"`.
+متغیری با نام `str` بسازید و مقدار آن را `"abc"` قرار دهید.
 {% solution %}
 var str = 'abc';
 {% validation %}

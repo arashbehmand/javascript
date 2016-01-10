@@ -1,14 +1,14 @@
-# While Loop
+# حلقه While
 
-While Loops repetitively execute a block of code as long as a specified condition is true.
+حلقه `while` مادامی که ظرطی برقرار باشد، مجموعه‌ای از دستورات را انجام می‌دهد.
 
 ```javascript
-while(condition){
-    // do it as long as condition is true
+while(شرط){
+    // مادامی که شرط برقرار است این کار را انجام بده
 }
 ```
 
-For example, the loop in this example will repetitively execute its block of code as long as the variable i is less than 5:
+برای مثال حلقه زیر مادامی که مقدار متغییر i کمتر از 5 باشد، اجرا خواهد شد:
 
 ```javascript
 var i = 0, x = "";
@@ -18,20 +18,11 @@ while (i < 5) {
 }
 ```
 
-The Do/While Loop is a variant of the while loop. This loop will execute the code block once before checking if the condition is true. It then repeats the loop as long as the condition is true:
-
-```javascript
-do {
-    // code block to be executed
-} while (condition);
-```
-
-
-**Note**: Be careful to avoid infinite looping if the condition is always true!
+**توجه**: دقت داشته باشید که اگر شرطتان همیشه درست باشد دچار حلقه بی‌نهایت خواهید شد.
 
 
 {% exercise %}
-Using a while-loop, create a variable named `message` that equals the concatenation of integers (0, 1, 2, ...) as long as its length (`message.length`) is less than 100.
+توسط یک حلقه while متغییری به اسم `message` بسازید و مادامی که طول آن (`message.length`) کوچکتر از ۱۰۰ است، اعداد صحیح (0, 1, 2, ...) را به انتهای آن بچسبانید.
 {% initial %}
 var message = "";
 {% solution %}

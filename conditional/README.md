@@ -1,9 +1,9 @@
-# Conditional Logic
+# منطق شرطی
 
-A condition is a test for something. Conditions are very important for programming, in several ways:
+شرط، امتحانی برای یک چیز است. شروط در برنامه‌نویسی از چند جهت اهمیت بالایی دارند:
 
-First of all conditions can be used to ensure that your program works, regardless of what data you throw at it for processing. If you blindly trust data, you’ll get into trouble and your programs will fail. If you test that the thing you want to do is possible and has all the required information in the right format, that won’t happen, and your program will be a lot more stable. Taking such precautions is also known as programming defensively.
+اولا می‌توان از شروط برای اطمینان از اینکه برنامه شما فارغ از اینکه چه اطلاعاتی به آن داده می‌شود کار خواهد کرد، استفاده کرد. اگر شما کورکورانه به داده‌های ورودی اعتماد کنید، به دردسر خواهید افتاد و برنامه شما دچار اشکال خواهد شد. اما اگر مطمئن شوید که کاری که می‌خواهید انجام دهید مقدور است و همه اطلاعات مورد نیاز در قالب صحیح فراهم هستند. چنین اتفاقی نخواهد افتاد و برنامه شما پایداری بالایی خواهد داشت.
 
-The other thing conditions can do for you is allow for branching. You might have encountered branching diagrams before, for example when filling out a form. Basically, this refers to executing different “branches” (parts) of code, depending on if the condition is met or not.
+مورد دیگری که شروط برای شما می‌توانند انجام دهند، انشعاب است. به طور ساده انشعاب به معنی اجرای قسمت‌های مختلفی از کد در صورت برقرار بودن یا نبودن یک شرط است.
 
-In this chapter, we'll learn the base of conditional logic in Javascript.
+در این فصل، در مورد مبانی منطق شرطی در جاوااسکریپت خواهیم آموخت.

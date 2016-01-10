@@ -1,6 +1,6 @@
 # Else
 
-There is also an `else` clause that will be applied when the first condition isn’t true. This is very powerful if you want to react to any value, but single out one in particular for special treatment:
+محتویات داخل عبارت `else` در حالتی اجرا می‌شوند که شرط if درست نبوده باشد. برای مثال این امکان در صورتی که بخواهید موردی خاص را استثنا قرار دهید و برای بقیه کار عادی را انجام بدهید سودمند خواهد بود:
 
 ```javascript
 var umbrellaMandatory;
@@ -12,7 +12,7 @@ if(country === 'England'){
 }
 ```
 
-The `else` clause can be joined with another `if`. Lets remake the example from the previous article:
+عبارت `else` می‌تواند به یک عبارت `if` دیگر متصل شود تا سلسله‌ای از شروط بررسی شوند. بیایید مثال مربوط به بخش قبل را بازنویسی کنیم:
 
 ```javascript
 if(country === 'England') {
@@ -26,7 +26,7 @@ if(country === 'England') {
 
 
 {% exercise %}
-Fill up the value of `name` to validate the `else` condition.
+مقدار متغییر `name` را جوری تغییر دهید تا عبارت مربوط به `else` اجرا شود.
 {% initial %}
 var name =
 

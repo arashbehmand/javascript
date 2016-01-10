@@ -1,14 +1,14 @@
-# For Loop
+# حلقه For
 
-The easiest form of a loop is the for statement. This one has a syntax that is similar to an if statement, but with more options:
+ساده‌ترین شکلی یک حلقه عبارت `for` است. نحوه نوشتن آن به شکل زیر است:
 
 ```javascript
-for(condition; end condition; change){
-    // do it, do it now
+for(راه‌اندازی اولیه; شرط پایان; تغییر){
+    //کاری که باید انجام شود
 }
 ```
 
-Lets for example see how to execute the same code ten-times using a `for` loop:
+برای مثال برای 10 بار اجرای یک دستور توسط حلقه `for` می‌نویسیم:
 
 ```
 for(var i = 0; i < 10; i = i + 1){
@@ -16,24 +16,22 @@ for(var i = 0; i < 10; i = i + 1){
 }
 ```
 
->***Note***: `i = i + 1` can be written `i++`.
-
 
 {% exercise %}
-Using a for-loop, create a variable named `message` that equals the concatenation of integers (0, 1, 2, ...) from 0 to 99.
+توسط یک حلقه for یک متغییر از جنس رشته با نام `message` درست کنید که مقدار آن حاصل از چسباندن اعداد صحیح از ۱ تا ۱۰۰ باشد.
 {% initial %}
 var message = "";
 {% solution %}
 var message = "";
 
 for(var i = 0; i < 100; i++){
-    message = message + i;
+    message = message + (i+1);
 }
 {% validation %}
 var message2 = ""
 
 for(var i = 0; i < 100; i++){
-    message2 = message2 + i;
+    message2 = message2 + (i+1);
 }
 assert(message === message2);
 {% endexercise %}

@@ -1,4 +1,6 @@
 {
+	"language":		"fa",
+	"direction":	"rtl",
     "gitbook": ">1.x.x",
     "plugins": [
         "exercises"

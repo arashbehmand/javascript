@@ -1,28 +1,26 @@
-# Substrings
+# زیررشته
 
-substring is used to take a part of a string.
-Syntax:  substring(first_index,last_index).
+می‌توانید از تابع زیر برای دسترسی به زیررشته‌ای از یک رشته استفاده کنید.
+نحوه استفاده: ```substring(first_index,last_index)```.
 
 ```js
 var a = 'Hello world!';
 document.write(a.substring(1,6));
 ```
-The preceding code snippet gives ```'ello '``` . Note that the 'w' (index 6) is not part of this substring.
+تکه کد بالا مقدار ```'ello '``` را چاپ خواهد کرد . دقت کنید که 'w' (اندیس 6) قسمتی از این زیررشته نیست.
 
-We could also do,
+همجنین می‌توانیم این کار را بکنیم:
 ```js
 var a = 'Hello world!';
 document.write(a.substring(2));
 ```
-This gives the whole string from the character with index 2. ``` 'llo world!'```
+این کل رشته را با شروع از نویسه موجود در اندیس ۲ بر‌می‌گرداند:  ``` 'llo world!'```
 
 ##substr
 
-There is also a method substr() that works slightly differently. Instead of the second number being an index number,
-it gives the number of characters.
-```js
+همچنین رویه‌[^1]ای به نام ```substr()``` وجود دارد که کمی متفاوت عمل می‌کند. به جای اینکه آرگومان دوم یک اندیس را مشخص کند، بیانگر تعداد نویسه‌ها‌ست.
+```j
 var a = 'Hello world!';
 document.write(a.substr(1,6));
 ```
-
-starts at the character with index 1 ('e') and then gives 6 characters, so the output is ```ello w```
+کد بالا از نویسه‌ی با اندیس ۱ ('e') شروع می‌کند و ۶ نویسه را بر‌می‌گرداند بنابراین خروجی برابر خواهد بود با ```ello w```.

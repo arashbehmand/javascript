@@ -1,31 +1,47 @@
-# Variable types
+# انواع متغیر‌ها
 
-Computers are sophisticated and can make use of more complex variables than just numbers. This is where variable types come in. Variables come in several types and different languages support different types.
+کامپیوتر‌ها اعجاب‌آورند و می‌توانند از متغیر‌هایی خیلی پیچیده‌تر از اعداد استفاده کنند. اینجا‌ست که انواع متغیر‌ها اهمیت پیدا می‌کند. متغیر‌ها انواع گوناگونی دارند که زبان‌های برنامه‌نویسی مختلف از انواع مختلفی پشتیبانی می‌کنند.
 
-The most common types are:
+برخی از انواع متداول به شرح زیر هستند:
 
-* **Numbers**
-    * **Float**: a number, like 1.21323, 4, -33.5, 100004 or 0.123
-    * **Integer**: a number like 1, 12, -33, 140 but not 1.233
+* **اعداد**
+	* **صحیح**[^1]: اعدادی مثل 1، 12، -33، ۱۴0 ولی نه 1.233
+	* **ممیز شناور**[^2]: اعدادی مثل 1.21323، 4، -33.5، 100004 یا 0.123
 
-* **String**: a line of text like "boat", "elephant" or "damn, you are tall!"
+* **رشته**[^3]: قسمتی از یک نوشته مثل "boat"، "elephant"، "چقدر قد رشید‌ی داری" و یا  "&lt;table&gt;"
 
-* **Boolean**: either true or false, but nothing else
+* **دودویی**[^4]: یا درست یا غلط و نه چیزی دیگر.
 
-* **Arrays**: a collection of values like: 1,2,3,4,'I am bored now'
+* **آرایه‌ها**[^5]: مجموعه‌ای از مقادیر مثل 1، 2، 3، 4.5 و "خسته شدم"
 
-* **Objects**: a representation of a more complex object
+* **اشیا**[^6]: بازنمایی‌ای از یک شی
 
-* **null**: a variable that contains null contains no valid Number, String, Boolean, Array, or Object
+* **تهی**[^7]: متغیر‌ی که مقدار تهی دارد، بدین معناسی که مقدار عدد، رشته، دودویی، آرایه یا شی معتبر‌ی ندارد. هیچ ندارد در واقع.
 
-* **undefined**: the undefined value is obtained when you use an object property that does not exist, or a variable that has been declared, but has no value assigned to it.
+* **تعریف‌نشده**[^8]: نوع متغیر تعریف نشده وقتی پیش می‌آید که شما از متغیر‌ی که تعریف نکرده‌اید، خاصیتی از یک شی که در آن شی وجود ندارد و یا متغیری که تعریف شده ولی مقدار دهی نشده استفاده کنید.
 
-JavaScript is a *“loosely typed”* language, which means that you don't have to explicitly declare what type of data the variables are. You just need to use the ```var``` keyword to indicate that you are declaring a variable, and the interpreter will work out what data type you are using from the context, and use of quotes.
+متغیر‌های جاوااسکریپت نوع صریحی ندارند. به این معنی که نیازی نیست شما صراحتا مشخص کنید که چه نوع داده‌ای در متغیر قرار است ذخیره شود. تنها لازم است که از کلمه کلیدی `var` برای مشخص کردن اینکه می‌خواهید یک متغیر تعریف کنید، استفاده کنید و مفسر از متن کد خواهد فهمید که از چه نوع متغیری استفاده می‌کنید و خودش آن را مدیریت خواهد کرد.
 
 {% exercise %}
-Create a variable named `a` using the keyword `var`.
+به کمک کلمه کلیدی `var` متغیری به نام ‍`a` بسازید.
 {% solution %}
 var a;
 {% validation %}
 a;
 {% endexercise %}
+
+[^1]: Integer
+
+[^2]: Float
+
+[^3]: String
+
+[^4]: Boolean
+
+[^5]: Arrays
+
+[^6]: Objects
+
+[^7]: null
+
+[^8]: undefined

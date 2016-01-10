@@ -1,17 +1,17 @@
-# Comments
+# حاشیه‌نویسی[^1]
 
-Comments are statements that will not be executed by the interpreter, comments are used to mark annotations for other programmers or small descriptions of what your code does, thus making it easier for others to understand what your code does.
+حاشیه‌نویسی یا توضیح‌ها عباراتی هستند که توسط مفسر اجرا نمی‌شوند، حاشیه‌نویسی‌ها برای نوشتن یادداشت برای سایر برنامه‌نویسان یا برای توضیحی کوتاه راجع به عملکرد کد استفاده می‌شوند، تا درک آن را برای سایرین ساده‌تر کنند.
 
-In Javascript, comments can be written in 2 different ways:
+در جاوااسکریپت، دو روش برای حاشیه‌نویسی وجود دارد:
 
-* Line starting with `//`:
+* هر چیزی بعد از `//` نوشته شود.:
 
 ```javascript
 // This is a comment, it will be ignored by the interpreter
-var a = "this is a variable defined in a statement";
+var a = "this is a variable defined in a statement"; // This is another comment
 ```
 
-* Section of code starting with `/*`and ending with `*/`, this method is used for multi-line comments:
+* بخش‌هایی از کد که بین `/*` و `*/` محصور باشند. این روش برای نوشتن حاشیه‌های چند خطی استفاده می‌شود:
 
 ```javascript
 /*
@@ -24,7 +24,7 @@ var a = "this is a variable defined in a statement";
 
 ---
 
-Mark the editor's contents as a comment
+نوشته زیر را تبدیل به حاشیه‌نویسی کنید
 
 ```js
 
@@ -45,3 +45,5 @@ assert(true);
 ```
 
 ---
+
+[^1]: Comment

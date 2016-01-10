@@ -1,19 +1,19 @@
-# Advanced Operators
+# عملگر‌های پیشرفته
 
-Some advanced operators can be used, such as:
+بعضی عملگر‌های پیشرفته‌تر نیز برای استفاده در اختیار شما هست:
 
-* **Modulus (division remainder)**: ```x = y % 2```
-* **Increment**: Given a = 5
-    * ```c = a++```, Results: c = 5 and a = 6
-    * ```c = ++a```, Results: c = 6 and a = 6
-* **Decrement**: Given a = 5
-    * ```c = a--```, Results: c = 5 and a = 4
-    * ```c = --a```, Results: c = 4 and a = 4
+* **پیمانه (باقیمانده تقسیم)**: ```x = y % 2```
+* **افزایش**: با فرض a = 5
+    * ```c = a++```, خواهیم داشت: c = 5 و a = 6
+    * ```c = ++a```, خواهیم داشت: c = 6 و a = 6
+* **کاهش**: با فرض a = 5
+    * ```c = a--```, خواهیم داشت: c = 5 و a = 4
+    * ```c = --a```, خواهیم داشت: c = 4 و a = 4
 
 
 
 {% exercise %}
-Define a variable `c` as the modulus of the decremented value of `x` by 3.
+متغیری به اسم `c` تعریف کنید که باقیمانده کاهش یافته `x` به ۳ باشد.
 {% initial %}
 var x = 10;
 

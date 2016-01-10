@@ -1,8 +1,8 @@
-# Creation
+# ساختن
 
-Creating a number is easy, it can be done just like for any other variable type using the ```var``` keyword.
+ساختن یک عدد ساده است، برای این کار مانند هر متغیر دیگری کافی است از کلید‌واژه ```var``` استفاده کنید.
 
-Numbers can be created from a constant value:
+اعداد می‌توانند از روی مقداری ثابت ساخته شوند:
 
 ```
 // This is a float:
@@ -11,8 +11,7 @@ var a = 1.2;
 // This is an integer:
 var b = 10;
 ```
-
-Or from the value of another variable:
+یا از روی متغیری دیگر
 
 ```
 var a = 2;
@@ -20,7 +19,7 @@ var b = a;
 ```
 
 {% exercise %}
-Create a variable `x` which equals `10` and create a variable `y` which equals `a`.
+یک متغیر به اسم `x` با مقدار `10` بسازید که مقدار و متغیر دیگری به اسم `y` بسازید که مساوی `a` باشد.
 {% initial %}
 var a = 11;
 {% solution %}

@@ -1,8 +1,8 @@
-Learn Javascript
+جاوااسکریپت را یاد بگیرید
 ======
 
-This book will teach you the basics of programming and Javascript. Whether you are an experienced programmer or not, this book is intended for everyone who wishes to learn the JavaScript programming language.
+این کتاب به شما مفاهیم اولیه برنامه نویسی و جاوااسکریپت را خواهد آموخت. اهمیتی ندارد که برنامه‌نویسی باتجربه باشید یا نه، این کتاب برای تمام کسانی است که علاقه‌مندند زبان برنامه‌نویسی جاوااسکریپت را بیاموزند.
 
 ![Screen](./assets/intro.png)
 
-JavaScript (*JS for short*) is the programming language that enables web pages to respond to user interaction beyond the basic level. It was created in 1995, and is today one of the most famous and used programming languages.
+جاوااسکریپت (*یا به اختصار JS*) زبان برنامه‌نویسی‌ای است که به صفحات وب امکان می‌دهد فراتر از حد ابتدایی با کاربر به تعامل بپردازد. این زبان در سال 1995 ساخته شده و امروز یکی از معروفترین و پر‌کاربرد‌ترین زبان‌های برنامه‌نویسی است.

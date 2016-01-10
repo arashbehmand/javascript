@@ -1,6 +1,6 @@
-# Comparators
+# مقایسه‌گر‌ها
 
-Lets now focus on the conditional part:
+به قسمت عبارت شرطی توجه کنید:
 
 ```javascript
 if (country === "France") {
@@ -8,20 +8,20 @@ if (country === "France") {
 }
 ```
 
-The conditional part is the variable `country` followed by the three equal signs (`===`). Three equal signs tests if the variable `country` has both the correct value (`France`) and also the correct type (`String`). You can test conditions with double equal signs, too, however a conditional such as `if (x == 5)` would then return true for both `var x = 5;` and `var x = "5";`. Depending on what your program is doing, this could make quite a difference.  It is highly recommended as a best practice that you always compare equality with three equal signs (`===` and `!==`) instead of two (`==` and `!=`).
+قسمت شرطی متغییر `country` است که بعد از آن سه علامت مساوی آمده (`===`). سه علامت مساوی بررسی می‌کنند که متغییر `country` مقدار صحیح (`France`) را داشته باشد و همچنین از نوع مورد نظر (`String`) باشد. شما می‌توانید عبارات شرطی‌ای با دو مساوی نیز داشته باشید. هرچند در این صورت عبارت شرطی `if (x == 5)` هم برای `var x = 5;` و هم  `var x = '5';` درست خواهد بود. بسته به اینکه برنامه چه کاری باید انجام دهد این مسئله می‌تواند تعیین کننده باشد.  اکیدا توصیه شده است که برابری را با سه مساوی (`===` and `!==`) به جای دو مساوی (`==` and `!=`) بررسی کنید.
 
-Other conditional test:
+سایر بررسی‌های شرطی:
 
-* ```x > a```: is x bigger than a?
-* ```x < a```: is x less than a?
-* ```x <= a```: is x less than or equal to a?
-* ```x >=a```: is x greater than or equal to a?
-* ```x != a```: is x not a?
-* ```x```: does x exist?
+* ```x > a```: آیا x بزرگتر از a است؟
+* ```x < a```: آیا x کوچکتر از a است؟
+* ```x <= a```: آیا x کوچکتر از یا مساوی با a است؟
+* ```x >=a```: آیا x بزرگتر از یا مساوی با a است؟
+* ```x != a```: آیا x برابر a نیست؟
+* ```x```: آیا x وجود دارد؟
 
 
 {% exercise %}
-Add a condition to change the value of `a` to the number 10 if `x` is bigger than 5.
+شرطی اضافه کنید که مقدار `a` را به 10 تغییر دهد اگر `x` بزرگتر از 5 باشد.
 {% initial %}
 var x = 6;
 var a = 0;

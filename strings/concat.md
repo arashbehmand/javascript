@@ -1,13 +1,13 @@
-# Concatenation
+# چسباندن
 
-Concatenation involves adding two or more strings together, creating a larger string containing the combined data of those original strings. This is done in JavaScript using the **+** operator.
+چسباندن به معنای قرار دادن دو یا چند رشته در کنار هم و ساختن یک رشته طولانی‌تر است که حاوی داده ترکیب شده رشته‌های اولیه باشد. این کار در جاوااسکریپت توسط عملگر `+` انجام می‌شود.
 
 ```js
 var bigStr = 'Hi ' + 'JS strings are nice ' + 'and ' + 'easy to add';
 ```
 
 {% exercise %}
-Add up the different names so that the `fullName` variable contains John's complete name.
+قسمت‌های مختلف نام یک نفر را جمع کنید تا متغیر `fullName` حاوی نام کامل وی باشد.
 {% initial %}
 var firstName = "John";
 var lastName = "Smith";

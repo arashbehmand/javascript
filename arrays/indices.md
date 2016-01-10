@@ -1,19 +1,19 @@
-# Indices
+# اندیس‌ها
 
-So you have your array of data elements, but what if you want to access a specific element? That is where indices come in. An **index** refers to a spot in the array. indices logically progress one by one, but it should be noted that the first index in an array is 0, as it is in most languages. Brackets [] are used to signify you are referring to an index of an array.
+وقتی یک آرایه داریم به چه شکل می‌شود به المان‌ خاصی از آن دسترسی داشت؟ اینجا جاییست که اندیس‌ها اهمیت پیدا می‌کنند. **اندیس** ارجاع دهنده به مکان خاصی از آرایه است. اندیس‌ها اصولا یکی یکی زیاد می‌شوند، اما لازم به ذکر است که اولین اندیس یک آرایه در جاوااسکریپت به مانند بسیاری از زبان‌های برنامه‌نویسی 0 است. از براکت‌ها (`[]`) برای ارجاع به اندیس مشخصی از یک آرایه استفاده می‌شود.
 
 ```javascript
-// This is an array of strings
+// این آرایه‌ای از رشته‌هاست
 var fruits = ["apple", "banana", "pineapple", "strawberry"];
 
-// We set the variable banana to the value of the second element of
-// the fruits array. Remember that indices start at 0, so 1 is the
-// second element. Result: banana = "banana"
-var banana = fruits[1];
+// مقدار متغیر banana را مساوی مقدار دومین المان آرایه
+// میوه‌ها قرار می‌دهیم. به یاد داشته باشید که اندیس‌ها 
+// از 0 شروع می‌شوند، بنابراین ۱ بیانگر دومین المان است.
+var banana = fruits[1]; // نتیجه: banana = "banana"
 ```
 
 {% exercise %}
-Define the variables using the indices of the array
+متغیر‌هایی با کمک اندیس‌های مختلف آرایه زیر بسازید.
 {% initial %}
 var cars = ["Mazda", "Honda", "Chevy", "Ford"]
 var honda =

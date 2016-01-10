@@ -1,47 +1,47 @@
-# Variables
+# متغیر‌ها
 
-The first step towards really understanding programming is looking back at algebra. If you remember it from school, algebra starts with writing terms such as the following.
+اولین گام برای درک برنامه نویسی، یاد‌آوری جبر است. اگر به یاد داشته باشید ابتدا با نوشتن رابطه‌ای مثل رابطه زیر شروع می‌کردیم.
 
 ```
 3 + 5 = 8
 ```
 
-You start performing calculations when you introduce an unknown, for example x below:
+محاسبات شما از زمانی شروع می‌شد که مجهولات اضافه می‌شدند. برای مثال x در رابطه زیر:
 
 ```
 3 + x = 8
 ```
 
-Shifting those around you can determine x:
+با مرتب کردن رابطه بالا می‌توانید x را به دست بیاورید:
 
 ```
 x = 8 - 3
 -> x = 5
 ```
 
-When you introduce more than one you make your terms more flexible - you are using variables:
+وقتی بیش از یک مجهول تعریف می‌کنید، عبارات شما انعطاف بیشتری پیدا می‌کنند. شما از متغیر‌ها استفاده می‌کنید.
 
 ```
 x + y = 8
 ```
 
-You can change the values of x and y and the formula can still be true:
+می‌توانید مقادیر مختلفی برای x و y در نظر بگیرید و رابطه همچنان برقرار خواهد بود:
 
 ```
 x = 4
 y = 4
 ```
 
-or
+یا
 
 ```
 x = 3
 y = 5
 ```
 
-The same is true for programming languages. In programming, variables are containers for values that change. Variables can hold all kind of values and also the results of computations. Variables have a name and a value separated by an equals sign (=). Variable names can be any letter or word, but bear in mind that there are restrictions from language to language of what you can use, as some words are reserved for other functionality.
+همین مسئله در زبان‌های برنامه‌نویسی صادق است. در برنامه‌نویسی، متغیر‌ها نگه‌دارنده‌هایی برای مقادیری هستند که تغییر می‌کنند. متغیرها می‌توانند مقادیر مختلف یا همینطور نتیجه محاسبات را در خود نگه‌دارند. متغیر‌ها یک نام و یک مقدار دارند که توسط علامت مساوی (=) از هم جدا می‌شوند. نام متغیر‌ها می‌تواند متشکل از هر حرف یا کلمه‌ای باشد،‌اما به یاد داشته باشید که محدودیت‌هایی در زبان‌های مختلف در مورد نامگذاری متغیر‌ها وجود دارد، زیرا برای مثال برخی کلمات برای کاربرد خاصی استفاده می‌شوند.
 
-Let's check out how it works in Javascript, The following code defines two variables, computes the result of adding the two and defines this result as a value of a third variable.
+بیایید نگاهی بیاندازیم به چگونگی کار‌کردن متغیرها در جاوااسکریپت. کد زیر دو متغیر تعریف می‌کند، نتیجه حاصل از جمع آنها را حساب می‌کند و نتیجه آن را به عنوان مقدار متغیر سوم ذخیره می‌کند.
 
 ```js
 var x = 5;

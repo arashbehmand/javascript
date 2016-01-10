@@ -1,17 +1,17 @@
-# Length
+# طول
 
-It's easy in Javascript to know how many characters are in string using the property `.length`.
+در جاوااسکریپت اطلاع از اینکه چند نویسه در یک رشته قرار دارند به سادگی توسط ویژگی[^1] `.length` انجام می‌شود.
 
 ```js
-// Just use the property .length
+// کافیست از ویژگی .length استفاده کنید
 var size = 'Our lovely string'.length;
 
 ```
 
-**Note:** Strings can not be substracted, multiplied or divided.
+**توجه:** رشته‌ها نمی‌توانند از هم کم شوند، در هم ضرب شوند یا تقسیم شوند.
 
 {% exercise %}
-Store in the variable named `size` the length of `str`.
+در متغیری به اسم `size` طول رشته‌ای به نام `str` را ذخیره کنید.
 {% initial %}
 var str = "Hello World";
 
@@ -23,3 +23,5 @@ var size = str.length;
 {% validation %}
 assert(size === str.length);
 {% endexercise %}
+
+[^1]: Property

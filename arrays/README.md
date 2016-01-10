@@ -1,10 +1,10 @@
-# Arrays
+# آرایه‌ها
 
-Arrays are a fundamental part of programming. An array is a list of data. We can store a lot of data in one variable, which makes our code more readable and easier to understand. It also makes it much easier to perform functions on related data.
+آرایه‌ها عضوی بنیادی از برنامه‌نویسی هستند. آرایه یک لیست از اطلاعات است. ما می‌توانیم مقدار زیادی اطلاعات را در یک متغیر ذخیره کنیم، که این کار موجب این خواهد شد که کد ما خوانا‌تر و قابل‌فهم‌تر بشود. همچنین انجام عملیات روی داده‌های مرتبط بسیار آسان‌تر می‌شود.
 
-The data in arrays are called **elements**.
+عناصر داخل یک آرایه **المان‌**های آن خوانده می‌شوند.
 
-Here is a simple array:
+نمونه‌ای از یک آرایه:
 
 ```javascript
 // 1, 1, 2, 3, 5, and 8 are the elements in this array

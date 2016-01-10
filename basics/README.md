@@ -1,12 +1,12 @@
-# Basics about Programming
+# مفاهیم اولیه برنامه‌نویسی
 
-In this first chapter, we'll learn the basics of programming and the Javascript language.
+در فصل اول مقدمات و اصول برنامه نویسی و زبان جاوااسکریپت را خواهیم آموخت.
 
-Programming means writing code. A book is made up of chapters, paragraphs, sentences, phrases, words and finally punctuation and letters, likewise a program can be broken down into smaller and smaller components. For now, the most important is a statement. A statement is analogous to a sentence in a book. On its own, it has structure and purpose, but without the context of the other statements around it, it isn't that meaningful.
+برنامه‌نویسی یعنی نوشتن کد. کتاب از فصل‌های مختلف، پاراگراف‌ها، جملات، عبارات، کلمات و نهایتا علائم نگارشی و حروف تشکیل شده، به همین شکل یک برنامه را می‌توان به اجزای کوچک و کوچک‌تر تقسیم کرد. فعلا برای ما مهمترین آنها «عبارت[^1]» است. یک عبارت معادل یک جمله در کتاب است: برای خود ساختار و هدفی دارد، اما خارج از متن و سایر عبارات اطرافش،‌ معنی‌دار نیست.
 
-A statement is more casually (and commonly) known as a *line of code*. That's because statements tend to be written on individual lines. As such, programs are read from top to bottom, left to right. You might be wondering what code (also called source code) is. That happens to be a broad term which can refer to the whole of the program or the smallest part. Therefore, a line of code is simply a line of your program.
+عبارت به طور غیررسمی‌تر (و مرسوم‌تر)، *یک خط کد* خوانده می‌شود. این بدین خاطر است که به نظر می‌رسد که عبارات در خطوطی مجزا نوشته می‌شوند. بدین شکل که برنامه‌ها از بالا به پایین و از چپ به راست خوانده می‌شوند. ممکن است بپرسید کد (که کد منبع[^2]) نیز خوانده می‌شود چیست. کد عبارتی است که معنای گسترده‌ای دارد و می‌تواند برای اشاره به تمامی یک برنامه یا قسمت کوچکی از آن به کار رود. بنابراین، هر خط کد در واقع یک خط از برنامه شماست.
 
-Here is a simple example:
+به عنوان مثال:
 
 ```javascript
 var hello = "Hello";
@@ -15,5 +15,8 @@ var world = "World";
 // Message equals "Hello World"
 var message = hello + " " + world;
 ```
+این کد توسط برنامه دیگری که *مفسر*[^3] نام دارد می‌تواند خوانده و به شکل صحیح اجرا شود.
 
-This code can be executed by another program called an *interpreter* that will read the code, and execute all the statements in the right order.
+[^1]: Statement
+[^2]: Source Code
+[^3]: Interpreter

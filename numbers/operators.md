@@ -1,17 +1,17 @@
-# Operators
+# عملگرهای ساده
 
-You can apply mathematic operations to numbers using some basic operators like:
+شما می‌توانید عملیات ریاضی را با عملگر‌های ساده‌ی زیر انجام دهید:
 
-* **Addition**: ```c = a + b```
-* **Subtraction**: ```c = a - b```
-* **Multiplication**: ```c = a * b```
-* **Division**: ```c = a / b```
+* **جمع**: ```c = a + b```
+* **تفریق**: ```c = a - b```
+* **ضرب**: ```c = a * b```
+* **تقسیم**: ```c = a / b```
 
-You can use parentheses just like in math to separate and group expressions: ```c = (a / b) + d```
+همچنین شما می‌توانید مانند ریاضیات از پرانتز‌ها برای تعیین اولویت و جدا کردن گروهی از عملگرها استفاده کنید: ```c = (a / b) + d```
 
 
 {% exercise %}
-Create a variable `x` equal to the sum of `a` and `b` divided by `c` and finally multiplied by `d`.
+متغیری به اسم `x` بسازید که برابر با جمع `a` و `b` تقسیم بر `c` و نهایتا ضربدر `d` باشد.
 {% initial %}
 var a = 2034547;
 var b = 1.567;

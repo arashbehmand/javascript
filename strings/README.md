@@ -1,10 +1,10 @@
-# Strings
+# رشته‌ها
 
-JavaScript strings share many similarities with string implementations from other high-level languages. They represent text based messages and data.
+رشته‌ها در جاوااسکریپت شباهت زیادی به پیاده‌سازی رشته‌ها در سایر زبان‌های سطح بالا دارد. رشته‌ها می‌توانند حاوی اطلاعات یا پیام باشند.
 
-In this course we will cover the basics. How to create new strings and perform common operations on them.
+در این فصل ما مقدمات مربوط به رشته‌ها را بررسی خواهیم کرد. چگونه رشته جدید بسازیم و عملیات پر‌کاربرد را بر روی آن انجام دهیم.
 
-Here is an example of a string:
+در زیر نمونه‌ای از یک رشته را می‌بینید:
 
 ```javascript
 "Hello World"

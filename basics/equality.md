@@ -1,10 +1,10 @@
-# Equality
+# برابری‌ها
 
-Programmers frequently need to determine the equality of variables in relation to other variables. This is done using an equality operator.
+برنامه‌نویس‌ها معمولا نیاز دارند تا برابر بودن یا نبودن چند متغیر را نسبت به هم بسنجند. این کار توسط عملگر‌های برابری قابل حصول است.
 
-The most basic equality operator is the `==` operator. This operator does everything it can to determine if two variables are equal, even if they are not of the same type. 
+ابتدایی‌ترین عملگر برابری عملگر `==` است. این عملگر تمام تلاشش را می‌کند تا متوجه شود دو متغیر مربوط به آن برابر هستند یا نه، حتی اگر نوع آن دو یکسان نباشد.
 
-For example, assume:
+برای مثال فرض کنید:
 ```javascript
 var foo = 42;
 var bar = 42;
@@ -12,6 +12,6 @@ var baz = "42";
 var qux = "life";
 ```
 
-`foo == bar` will evaluate to `true` and `baz == qux` will evaluate to `false`, as one would expect. However, `foo == baz` will *also* evaluate to `true` despite `foo` and `baz` being different types. Behind the scenes the `==` equality operator attempts to force its operands to the same type before determining their equality. This is in contrast to the `===` equality operator.
+همانطور که قابل انتظار است `foo == bar` نتیجه `true` خواهد داشت و `baz == qux` مقدار `false` را نتیجه خواهد داد. بعلاوه `foo == baz` نیز حاصل `true` خواهد داشت. هرچند که `foo` و `baz` انواع متفاوتی دارند. در پشت صحنه عملگر `==` تلاش می‌کند تا دو عملوند را قبل از تعیین صحت برابری به یک نوع تبدیل کند. این مسئله در مورد عملگر `===` صادق نیست.
 
-The `===` equality operator determines that two variables are equal if they are of the same type *and* have the same value. With the same assumptions as before, this means that `foo === bar` will still evaluate to `true`,  but `foo === baz` will now evaluate to `false`. `baz === qux` will still evaluate to `false`.
+عملگر برابری `===` تنها در صورتی برقرار خواهد بود که دو عملوند از نوع یکسانی باشند و مقدار یکسانی نیز داشته باشند. با همان مفروضات بالا، این بدین معنی خواهد بود که `foo === bar` همچنان نتیجه `true` خواهد داشت، اما حاصل `foo === baz` مقدار `false` خواهد بود. همچنین `baz === qux` همچنان مقدار `false` خواهد داشت.

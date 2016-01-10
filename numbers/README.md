@@ -1,5 +1,5 @@
-# Numbers
+# اعداد
 
-JavaScript has **only one type of numbers** – 64-bit float point. It's the same as Java's `double`. Unlike most other programming languages, there is no separate integer type, so 1 and 1.0 are the same value.
+جاوااسکریپت **فقط یک نوع عددی** دارد: اعداد ممیز شناور 64 بیتی. این معادل نوع `double` در زبان جاوا است. برخلاف اکثر زبان‌های برنامه‌نویسی دیگر، هیچ نوع عدد صحیح مستقلی وجود ندارد، بنابراین 1 و 1.0 مفادیر یکسانی دارند.
 
-In this chapter, we'll learn how to create numbers and perform operations on them (like additions and subtractions).
+در این فصل، خواهیم آموخت که چگونه یک متغیر عددی بسازیم و روی آن اعمال مختلف (مثل جمع یا تفریق) انجام دهیم.

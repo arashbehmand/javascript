@@ -1,8 +1,8 @@
-# Loops
+# حلقه‌ها
 
-Loops are repetitive conditions where one variable in the loop changes. Loops are handy, if you want to run the same code over and over again, each time with a different value.
+حلقه‌ها برای انجام کار‌های تکراری استفاده می‌شوند.
 
-Instead of writing:
+با حلقه می‌توانید به جای:
 
 ```javascript
 doThing(cars[0]);
@@ -12,7 +12,7 @@ doThing(cars[3]);
 doThing(cars[4]);
 ```
 
-You can write:
+بنویسید:
 
 ```javascript
 for (var i=0; i < cars.length; i++) { 

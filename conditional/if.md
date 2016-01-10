@@ -1,6 +1,6 @@
-# Condition If
+# شرط If
 
-The easiest condition is an if statement and its syntax is `if(condition){ do this … }`. The condition has to be true for the code inside the curly braces to be executed. You can for example test a string and set the value of another string dependent on its value:
+ساده ترین عبارت شرطی، گذاره if است که نحوه نوشتن آن به شکل `if(شرط){ کاری را انجام بده … }` است. برای اینکه عبارات داخل آکولاد اجرا شوند شرط داخل پرانتز باید حتما صحیح باشد. برای مثال می‌توانید مقدار رشته‌ای را در شرط خود بررسی کنید و مقدار رشته دیگری را متناسب با آن تعیین کنید:
 
 ```javascript
 var country = 'France';
@@ -31,10 +31,11 @@ var message = 'this is ' + country + ', the weather is ' +
             'currency is ' + currency;
 ```
 
-**Note:** Conditions can also be nested.
+**توجه:** شروط ممکن است تو در تو باشند.
 
 {% exercise %}
-Fill up the value of `name` to validate the condition.
+
+مقدار متغییر `name` را جوری تعیین کنید که شرط زیر صادق باشد.
 {% initial %}
 var name =
 
