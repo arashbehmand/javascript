@@ -1,6 +1,6 @@
-# Functions
+# توابع
 
-Functions, are one of the most powerful and essential notions in programming.
+توابع از مفاهیم بنیادی و بسیاری قدرتمند در برنامه‌نویسی هستند.
 
-Functions like mathematical functions perform transformations, they take input values called **arguments** and **return** an output value.
+توابع در برنامه‌نویسی مانند توابع ریاضی، ورودی‌هایی می‌گیرند که **آرگومان** نامیده می‌شود و بعد از انجام عملیاتی یک **خروجی** بر‌می‌گردانند.
 

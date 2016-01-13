@@ -1,6 +1,6 @@
-# Declaring Functions
+# تعریف توابع
 
-Functions, like variables, must be declared. Let's declare a function `double` that accepts an **argument** called `x` and **returns** the double of x :
+توابع ،به مانند متغیر‌ها، باید تعریف شوند. بیایید تابعی به اسم `double` تعریف کنیم که **آرگومانی** به اسم `x` را بگیرد و دو برابر آن را **برگرداند** :x :
 
 ```javascript
 function double(x) {
@@ -8,9 +8,9 @@ function double(x) {
 }
 ```
 
->*Note:* the function above **may** be referenced before it has been defined.
+>*توجه:* تابع فوق **می‌تواند** قبل از اینکه تعریف شود در کد استفاده شود.
 
-Functions are also values in JavaScript; they can be stored in variables (just like numbers, strings, etc ...) and given to other functions as arguments :
+توابع در جاوااسکریپت مثل یک *مقدار* عمل می‌کنند. می‌توانید آنها را در یک متغیر ذخیره کنید (درست مثل اعداد، رشته‌ها و ...) و آنها را به عنوان آرگومان به سایر توابع بدهید:
 
 ```javascript
 var double = function(x) {
@@ -18,10 +18,10 @@ var double = function(x) {
 };
 ```
 
->*Note:* the function above **may not** be referenced before it is defined, just like any other variable.
+>*توجه:* تابع فوق**نمی‌تواند** قبل از تعریف استفاده شود، درست مثل همه متغیر‌ها.
 
 {% exercise %}
-Declare a function named `triple` that takes an argument and returns its triple.
+تابع به نام `triple` تعریف کنید که یک آرگومان بگیرد و سه برابر آن را برگرداند.
 {% solution %}
 var triple = function(x) {
     return x * 3;
