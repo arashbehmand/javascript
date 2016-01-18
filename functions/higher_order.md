@@ -1,12 +1,10 @@
-# توابع پیچیده‌تر
+# توابع درجات بالاتر
 
 توابع پیچده‌تری می‌توان تعریف کرد که بر روی توابع دیگر عملیات انجام می‌دهند.
-برای مثال، تابعی می‌تواند تابع دیگری را به عنوان آرگومان بپذیرد و/یا تابعی را به عنوان خروجی برگرداند.
-
-We will now create two simple functions, `add_2` and `double`, and a higher order function called `map`. `map` will accept two arguments, `func` and `list` (its declaration will therefore begin `map(func,list)`), and return an array. `func` (the first argument) will be a function that will be applied to each of the elements in the array `list` (the second argument).
+برای مثال، تابعی می‌تواند تابع دیگری را به عنوان آرگومان بپذیرد و/یا تابعی را به عنوان خروجی برگرداند.در زیر دو تابع `add_2` و `double`  و تابعی درجه بالا با نام `map` را تعریف کرده‌ایم. `map` دو آرگومان می‌گیرد، `func` و `list` و یک آرایه برمی‌گرداند. عمکرد تابع به این شکل است که `func` را بر روی عناصر موجود در `list` اعمال می‌کند و در آرایه خروجی برمی‌گرداند.
 
 ```javascript
-// Define two simple functions
+// تعریف دو تابع ساده
 var add_2 = function(x) {
     return x + 2;
 };
@@ -14,9 +12,9 @@ var double = function(x) {
     return 2 * x;
 };
 
-// map is cool function that accepts 2 arguments:
-//  func    the function to call
-//  list    a array of values to call func on
+// map تابعی زیباست که دو آرگومان می‌گیرد
+//  func	تابعی که باید اجرا شد
+//  list	آرایه‌ای از مقادیر که تابع باید روی آنها اجرا شود
 var map = function(func, list) {
     var output=[];              // output list
     for(idx in list) {
@@ -26,15 +24,13 @@ var map = function(func, list) {
 }
 
 
-// We use map to apply a function to an entire list
-// of inputs to "map" them to a list of corresponding outputs
+// می‌توانیم از «map» برای اعمال تابعی به روی لیستی از مقادیر و گرفتن خروجی‌های متناظر استفاده کنیم
 map(add_2, [5,6,7]) // => [7, 8, 9]
 map(double, [5,6,7]) // => [10, 12, 14]
 ```
+توابع مثال بالا ساده هستند. اما با استفاده از آنها به عنوان آرگومان توابع دیگر می‌توان کارهای پیچیده‌تری انجام داد.
 
-The functions in the above example are simple. However, when passed as arguments to other functions, they can be composed in unforeseen ways to build more complex functions.
-
-For example, if we notice that we use the invocations `map(add_2, ...)` and `map(double, ...)` very often in our code, we could decide we want to create two special-purpose list processing functions that have the desired operation baked into them. Using function composition, we could do this as follows:
+برای مثال اگر متوجه شدیم که از عبارت `map(add_2, ...)` یا `map(double, ...)` را مکررا به کار برده‌اید، می‌توانید توابعی خاص منظوره برای این توابع تعریف کنید. با استفاده از کد زیر می‌توان این کار را کرد:
 
 ```javascript
 process_add_2 = function(list) {
@@ -51,14 +47,14 @@ process_double([5,6,7]) // => [10, 12, 14]
 و تابعی را برمی‌گرداند که `func` را بر روی یک لیست اعمال می‌کند.
 
 ```javascript
-// a function that generates a list processor that performs
+// تابعی که تابعی دیگر می‌سازد تا بر روی لیست عملیاتی انجام دهد.
 var buildProcessor = function(func) {
-    var process_func = function(list) {
+    var process_func = function(list) ف{
         return map(func, list);
     }
     return process_func;
 }
-// calling buildProcessor returns a function which is called with a list input
+// اجرای تابع فوق تابعی دیگر را بر می‌گرداند که یک لیست را به عنوان آرگومان می‌پذیرد و روی آن عملیاتی انجام می‌دهد.
 
 
 // using buildProcessor we could generate the add_2 and double list processors as follows:
