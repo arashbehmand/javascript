@@ -1,19 +1,19 @@
-# Creation
-There are two ways to create an `object` in JavaScript:
+# ساختن
+در جاوااسکریپت دو راه برای ساختن یک `object` وجود دارد:
 
-1. literal
+1. 
 
     ```js
     var object = {};
-     // Yes, simply a pair of curly braces!
+     // بله! فقط با یک جفت براکت باز و بسته.
 
     ```
-    > ***Note:*** this is the **recomended** way.
+    > ***توجه:*** این روش **توصیه شده** است.
 
-2. and object-oriented
+2. 
 
     ```js
     var object = new Object();
 
     ```
-    > ***Note:*** it's almost like Java.
+    > ***توجه:*** این روش تقریبا مشابه جاوا است.

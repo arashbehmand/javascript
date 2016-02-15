@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'XBNiloofar';
+  src: url('../assets/XBNiloofar.eot?#iefix') format('embedded-opentype'),  url('../assets/XBNiloofar.woff') format('woff'), url('../assets/XBNiloofar.ttf')  format('truetype'), url('../assets/XBNiloofar.svg#XBNiloofar') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'XBTitre';
+  src: url('../assets/XBTitre.eot?#iefix') format('embedded-opentype'),  url('../assets/XBTitre.woff') format('woff'), url('../assets/XBTitre.ttf')  format('truetype'), url('../assets/XBTitre.svg#XBTitre') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, .summary {
+	font-family: Segoe UI, Tahoma;
+}
+.book.font-family-0 {
+  font-family: Segoe UI, Tahoma;
+}
+.book.font-family-1 {
+  font-family: Segoe UI, Tahoma;
+  text-align: justify;
+}
+
+.book.with-summary .book-body {
+	left: 0px;
+	right: 300px;
+}
+
+.book.with-summary .book-summary
+{
+	left: auto;
+	right: 0px;
+}

@@ -1,20 +1,17 @@
-# Reference
-Objects are **never copied**. They are passed around by reference.
+# ارجاع
+اشیا **هیچ‌وقت نسخه برداری** نمی‌شوند. بلکه به‌شکل By Reference (اشاره گر) انتقال داده می‌شوند.
 ```js
- // Imagine I had a pizza
+ // فرض کنید من یک پیتزا دارم
 var myPizza = {slices: 5};
- // And I shared it with You
+ // آن را با شما به اشتراک گذاشته‌ام
 var yourPizza = myPizza;
- // I eat another slice
+ // من یک اسلایس می‌خورم
 myPizza.slices = myPizza.slices - 1;
 var numberOfSlicesLeft = yourPizza.slices;
- // Now We have 4 slices because myPizza and yourPizza
- // reference to the same pizza object.
+ // حالا ما ۴ اسلایس داریم، چون پیتزای شما و پیتزای من به یک شی پیتزا اشاره می‌کنند
 var a = {}, b = {}, c = {};
- // a, b, and c each refer to a
- // different empty object
+ // در این حالت سه متغیر به سه شی خالی جدا اشاره می‌کنند
 a = b = c = {};
- // a, b, and c all refer to
- // the same empty object
+ // اما در این حالت سه متغیر به یک شی خالی یکسان اشاره می‌کنند
 
 ```

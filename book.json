@@ -1,8 +1,16 @@
 {
+	"title":		"جاوااسکریپت را یاد بگیرید",
 	"language":		"fa",
 	"direction":	"rtl",
     "gitbook": ">1.x.x",
     "plugins": [
         "exercises"
-    ]
+    ],
+	    "styles": {
+        "website":	"styles/website.css",
+        "ebook":	"styles/book.css",
+        "pdf":		"styles/book.css",
+        "mobi":		"styles/book.css",
+        "epub":		"styles/book.css"
+    }
 }

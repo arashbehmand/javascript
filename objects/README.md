@@ -1,4 +1,4 @@
-# Objects
-The primitive types of JavaScript are `true`, `false`, numbers, strings, `null` and `undefined`. **Every other value is an `object`.**
+# اشیا
+انواع بنیادی متغییرها در جاوااسکریپت دودویی، اعداد، رشته‌ها `null` و `undefined` هستند. **هر مقدار دیگری یک شی (`object`) است.**
 
-In JavaScript objects contain `propertyName`: `propertyValue` pairs.
+در جاوااسکریپت هر شی از زوجهای نام و مقدار (`propertyName`: `propertyValue`) تشکیل شده‌اند.

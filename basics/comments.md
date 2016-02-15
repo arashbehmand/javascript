@@ -22,28 +22,18 @@ var a = "this is a variable defined in a statement";
 ```
 
 
----
-
+{% exercise %}
 نوشته زیر را تبدیل به حاشیه‌نویسی کنید
-
-```js
-
+{%initial%}
 Mark me as a comment
 or I'll throw an error
-
-```
-
-```js
+{% solution %}
 /*
 Mark me as a comment
 or I'll throw an error
 */
-```
-
-```js
+{% validation %}
 assert(true);
-```
-
----
+{% endexercise %}
 
 [^1]: Comment
